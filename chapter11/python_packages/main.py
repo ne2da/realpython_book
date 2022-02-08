@@ -1,8 +1,7 @@
 # main.py
 
-import package_1.greet
-import package_1.depart
+from package_1 import greet, depart
 
 
-package_1.greet.greet('Ethan')
-package_1.depart.depart('Ethan')
+greet.greet('Sarah')
+depart.depart('Zoe')
