@@ -1,7 +1,8 @@
 # main.py
 
-from package_1 import greet as g, depart as d
+from package_1.depart import depart
+from package_1.greet import greet
 
 
-g.greet('Sarah')
-d.depart('Zoe')
+greet('Sarah')
+depart('Zoe')
